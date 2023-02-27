@@ -1,0 +1,12 @@
+.page-wrapper{
+    display: flex;
+    height: 100vw;
+    width: 100%;
+    background-image: url("/img/blue-carbon-fiber-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-block{
+    margin: 5vw 2.5vw;
+}
