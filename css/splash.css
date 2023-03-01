@@ -6,9 +6,21 @@ body{background-color: black;
 }
 .page-wrapper{
     display: flex;
-    height: 100vh;
+    height: 300vh;
     width: 100%
 }
 .main-block{
     margin: 5vw 2.5vw;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.pfp{
+    height: 30vw;
+    width: 30vw;
+    border: solid white 1vw;
+    border-radius: 50%;
+    background-image: url("/img/pfp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
