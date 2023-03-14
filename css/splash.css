@@ -1,9 +1,35 @@
-body{background-color: black;
+body{
+    background-color: black;
+}
+
+#page-wrapper{
+    display: flex;
+    width:100%;
+    height: 100vh;
     background-image: url("/img/bbg.jpeg");
     background-size: cover;
     background-position: center;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+
 }
+.green-streak-container{
+    width: 40vw;
+    height: 30vh;
+    margin: 5vh 30vw;
+    background-color: chartreuse;
+}
+.blue-streak-container{
+    width: 40vw;
+    height: 30vh;
+    margin: 5vh 30vw;
+    background-color: midnightblue;
+}
+
+
+
+
+
+
 /*.page-wrapper{*/
 /*    display: flex;*/
 /*    height: 300vh;*/
