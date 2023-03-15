@@ -12,10 +12,15 @@ body{
     background-repeat: no-repeat;
 
 }
+.pfp-effects-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 .green-streak-container{
     width: 45vw;
     height: 35vh;
-    margin: 5vh 27.5vw 0 27.5vw;
+    margin-top: 5vh;
     overflow: hidden;
 }
 .green-streak{
@@ -28,8 +33,9 @@ body{
 .blue-streak-container{
     width: 35vw;
     height: 30vh;
-    margin: -10vh 32.5vw;
+    margin: -5vw 5vw;
     overflow: hidden;
+    z-index: 3;
 }
 .blue-streak{
     width: 60vw;
@@ -37,6 +43,18 @@ body{
     background-color: midnightblue;
     margin: 5.5vh 0 0 -5vw;
     transform: rotate(170deg);
+}
+.pfp{
+    height: 25vw;
+    width: 25vw;
+    margin: 2.5vh 9.5vw;
+    border: solid cornflowerblue .5vw;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url("/img/pfp.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
 
 }
 
