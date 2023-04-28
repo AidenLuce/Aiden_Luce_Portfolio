@@ -48,3 +48,21 @@ body{
     color: #fff;
     margin: auto;
 }
+.online-presence {
+    width: 80%;
+    height: 3vw;
+    margin: -3vw auto;
+    display: flex;
+}
+.git{
+    height: 3vw;
+    width: 3vw;
+    background-image: url("/img/git.png");
+    background-size: cover;
+}
+.linkedin{
+    height: 3vw;
+    width: 3vw;
+    background-image: url("/img/linkedin.png");
+    background-size: cover;
+}
