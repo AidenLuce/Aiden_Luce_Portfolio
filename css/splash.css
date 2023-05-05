@@ -45,24 +45,32 @@ body{
 }
 #heading h2{
     font-size: 1vw;
+    padding-bottom: .5vw;
     color: #fff;
     margin: auto;
 }
 .online-presence {
-    width: 80%;
-    height: 3vw;
-    margin: -3vw auto;
+    margin: 0.5vw 0 0 44vw;
+    width: 3vw;
+    padding: 0.25vw;
+    background-color: white;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: solid black 1px;
+    border-radius: 15%;
+    position: absolute;
 }
 .git{
-    height: 3vw;
-    width: 3vw;
-    background-image: url("/img/git.png");
-    background-size: cover;
+    margin-bottom: .5vw;
+height: 3vw;
+width: 3vw;
+background-image: url("/img/git.png");
+background-size: cover;
 }
 .linkedin{
-    height: 3vw;
-    width: 3vw;
-    background-image: url("/img/linkedin.png");
-    background-size: cover;
+height: 3vw;
+width: 3vw;
+background-image: url("/img/linkedin.png");
+background-size: cover;
 }
