@@ -2,6 +2,8 @@
 
 body{
     background-color: black;
+    --navy: #1d2040;
+    --white: #fff;
 }
 
 #page-wrapper{
@@ -18,51 +20,51 @@ body{
     height: 80vw;
     width: 60vw;
     margin:5vw auto;
+    display: flex;
+    flex-direction: column;
 }
 #pfp{
     background-image: url("/img/pfp.jpg");
-    height: 10vw;
-    width: 10vw;
-    position: absolute;
+    height: 8vw;
+    width: 8vw;
     background-size: cover;
     /*background-position: center;*/
-    border: solid #1d2040 5px;
-    border-radius: 50%;
-    margin: -12.5vw 2.5vw;
+    border: solid var(--navy) 5px;
+    /*margin: -12.5vw 2.5vw;*/
 }
+
 #heading{
-    background-color: #1d2040;
-    /*position: sticky;*/
-    height: 10%;
+    background-color: var(--navy);
     width: 80%;
     margin: 5% auto;
-    /*padding-left: 20%;*/
+    display: flex;
+    /*padding: 0 1%;*/
+    justify-content: space-between;
+    align-items: center;
+}
+#name-occupation{
     display: flex;
     flex-direction: column;
 }
 #heading h1{
     font-size: 5vw;
     color: #fff;
-    margin: auto;
+    margin: 0;
+
 }
 #heading h2{
     font-size: 1vw;
     padding-bottom: .5vw;
     color: #fff;
-    margin: auto;
+    align-self: center;
+    margin: 0;
 }
 .online-presence {
-    margin: 0.5vw 0 0 44vw;
-    width: 3vw;
     padding: 0.25vw;
+    margin: .5vw;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    border: solid black 1px;
-    border-radius: 15%;
-    position: absolute;
-}
+    border: solid var(--navy) 1px ;
+    border-radius: 15%;}
 .git{
     margin-bottom: .5vw;
 height: 3vw;
@@ -81,25 +83,31 @@ background-size: cover;
     height: 100%
 }
 .left-column{
-    height: 80%;
     width:30%;
     margin: 0 1vw;
 }
-.left-column h1{
+.left-column h1 {
+    font-size: 2vw;
     color: #1d2040;
     margin: auto;
     display: flex;
     justify-content: center;
 }
-.text{
+.left-column h2{
     font-size: 1.5vw;
+    color: #1d2040;
+    margin: 0;
+}
+.left-column h2 div{
+    margin: 0;
+}
+.text{
+    font-size: 1.25vw;
 }
 .cool-line{
-    height: 80%;
     margin: 0 .5vw;
     border: solid #1d2040 .2vw;
 }
 .right-column{
-    height: 80%;
     width: 70%;
 }
