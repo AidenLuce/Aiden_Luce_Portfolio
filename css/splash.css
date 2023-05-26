@@ -36,7 +36,7 @@ body{
 #heading{
     background-color: var(--navy);
     width: 80%;
-    margin: 5% auto;
+    margin: 5% auto 0 auto;
     display: flex;
     /*padding: 0 1%;*/
     justify-content: space-between;
@@ -78,6 +78,12 @@ width: 3vw;
 background-image: url("/img/linkedin.png");
 background-size: cover;
 }
+.gmail{
+    margin: 0 0 2.5% 2.5vw;
+    font-size: 1.5vw;
+    align-self: center
+}
+
 .info{
     display: flex;
     height: 100%
